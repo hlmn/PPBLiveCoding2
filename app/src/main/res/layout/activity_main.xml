@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ppblivecoding5october2017.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:id="@+id/id"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textId"
+        android:layout_below="@id/id"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/namaLabel"
+        android:layout_below="@id/textId"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textNama"
+        android:layout_below="@id/namaLabel"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi"
+        android:id="@+id/lokasiLabel"
+        android:layout_below="@id/textNama"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textLokasi"
+        android:layout_below="@id/lokasiLabel"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLokasi"
+        android:id="@+id/insertButton"
+        android:text="insert"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/insertButton"
+        android:layout_below="@id/textLokasi"
+        android:id="@+id/updateButton"
+        android:text="Update"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLokasi"
+        android:layout_toRightOf="@id/updateButton"
+        android:id="@+id/deleteButton"
+        android:text="delete"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectButton"
+        android:text="SELECT"
+        android:layout_below="@+id/textLokasi"
+        android:layout_toRightOf="@+id/deleteButton"
+        android:layout_toEndOf="@+id/deleteButton" />
+
+
+
+
+
+
+</RelativeLayout>
